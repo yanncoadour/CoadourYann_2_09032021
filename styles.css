@@ -57,11 +57,12 @@ header{
     color: black;
 }
 
-a:hover{
+header a:hover{
     color: #0065FC;
     border-top: 2px solid #0065FC;
     
 }
+
 
 .nav3{
     color: #0065FC;
@@ -103,6 +104,17 @@ a:hover{
 .barre_recherche input{
     border: 1px solid #F2F2F2;
     width: 18em;
+    
+}
+
+.barre_recherche input:focus{
+    outline: none;
+}
+#city-search::placeholder{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 /* Flitres*/
@@ -122,9 +134,14 @@ a:hover{
     border : 2px solid #F2F2F2;
     border-radius: 50px;
     background-color: white;
-    height: 2.6em;
+    height: 2.1em;
     padding-right: 1em;
     justify-content: space-between;
+}
+
+.choix_filtres :hover {
+    background-color:#DEEBFF;
+    cursor: pointer;
 }
 
 .filtres{
