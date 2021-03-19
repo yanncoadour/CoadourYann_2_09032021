@@ -49,7 +49,6 @@ header{
 .nav1, .nav2, .nav3{
     text-decoration: none;
     padding: 40px 20px 5px 20px;
-
 }
 
 .nav1, .nav2{
@@ -170,11 +169,15 @@ header a:hover{
 
 .titre_filtre{
     margin-right: 2em; 
+    
 }
 .titre_filtre h3{
-    font-size: small;
+    font-size: larger;
 }
 
+.filtres p{
+    font-size: large;
+}
 
 .choix_filtres i{
     color :#0065FC;
@@ -283,6 +286,7 @@ p{
 .hotel_populaire img {
     width: 40%;
     max-height: max-content;
+    object-fit: cover;
 
 }
 
@@ -305,7 +309,10 @@ p{
 .description_populaire .etoiles{
     margin: 0.1em 0.1em 0.1em 0.3em;
 }
-
+.lien_pop{
+    text-decoration: none;
+    color: black;
+}
 /* central herbergement*/
 
 .hebergement{
@@ -328,6 +335,7 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 1em;
+    
 }
 
 .hotel_hebergement {
@@ -336,9 +344,9 @@ p{
     border: 3px solid white;
     background-color: white;
     border-radius: 25px;
-    width: 29%;
+    width: 21.5em;
     height: 16em;
-    margin: 1em 1em 2em 1.5em;
+    margin: 1em 1em 1.2em 1.5em;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
     overflow: hidden;
 }
@@ -348,6 +356,7 @@ p{
     height: 11em;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: cover;
     
 }
 
@@ -374,7 +383,11 @@ p{
 }
 
 
-
+.hebergement a{
+    text-decoration: none;
+    color: black;
+    
+}
 
 .hebergement .afficherplus {
     text-decoration: none;
@@ -433,6 +446,7 @@ p{
 
 .column1 img{
     height: 36em;
+    object-fit: cover;
 }
 
 .column1 h3{
@@ -468,6 +482,7 @@ p{
 .column2 .img_column21 img{
     height: 21em;
     width: 25em;
+    object-fit: cover;
 }
 
 .column2 .img_column22{
@@ -483,6 +498,7 @@ p{
 .column2 .img_column22 img{
     height: 9em;
     width: 25em;
+    object-fit: cover;
 }
 
 .column3{
@@ -498,6 +514,7 @@ p{
 
 .column3 img{
     height: 36em;
+    object-fit: cover;
 }
 
 .column3 h3{
@@ -527,6 +544,7 @@ p{
 .column4 .img_column41 img{
     height: 17em;
     width: 25em;
+    object-fit: cover;
 }
 
 .column4 .img_column42{
@@ -542,6 +560,7 @@ p{
 .column4 .img_column42 img{
     height: 13em;
     width: 25em;
+    object-fit: cover;
 }
 
 
