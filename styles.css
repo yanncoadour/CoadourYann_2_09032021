@@ -19,9 +19,11 @@ h1{
     font-weight: bold;
 }
 /*header*/
+
+
 .logo{
-    width: 8%;
-    height: 8%;
+    width: 100px;
+    height: 50px;
     margin-top: 1em;
 }
 
@@ -97,7 +99,7 @@ header a:hover{
     width: auto;
     border: 3px solid white;
     border-radius: 10px;
-    width: 22%;
+    width: 400px;
     overflow: hidden;
     justify-content: space-between ;
     height: 2.5em;
@@ -254,7 +256,7 @@ p{
     background-color: #F2F2F2;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    width: 30%;
+    width: 600px;
     height: 47em;
     overflow: hidden;
     display: flex;
@@ -277,14 +279,14 @@ p{
     border-radius: 25px;
     background-color: white;
     overflow: hidden;
-    width: 87%;
+    width: 540px;
     height: 11em;
     margin: 1em 1.5em 2em 1.5em;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
 }
 
 .hotel_populaire img {
-    width: 40%;
+    width: 200px;
     max-height: max-content;
     object-fit: cover;
 
@@ -319,7 +321,7 @@ p{
     background-color: #F2F2F2;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    width: 65%;
+    width: 1175px;
     height: 47em;
 }
 
@@ -381,6 +383,8 @@ p{
 .description_hebergement .etoiles{
     margin: 0.1em 0.1em 0.1em 0.5em;
 }
+
+ 
 
 
 .hebergement a{
@@ -452,12 +456,8 @@ p{
 .column1 h3{
     margin-left: 1em;
 }
-.column1 h3 a{
-    display: block;
-    width: 100%;
-    height: 100%;
 
-}
+  
 
 .column2{
     display: flex;
@@ -613,3 +613,182 @@ footer{
     color :black;
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 600px) {
+
+
+  
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+
+    
+    body{
+        width: 600px;
+      
+    }
+
+
+
+    header{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche{
+        width: 400px;
+    }
+    #central{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires{
+        width: 500px;
+        margin-bottom: 1em;
+        border-radius: 0%;
+    }
+
+    .hotel_populaire{
+        width: 440px;
+    }
+
+    .hebergement{
+        background-color: white;
+        border: white;
+        height: auto;
+        
+    }
+
+    .grid_herbergement{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hotel_hebergement{
+        width: 440px;
+    }
+
+    .activites{
+        height: auto;
+    }
+
+    .grid_activites{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .column1{
+        height: 15em;
+        margin-bottom: 1em;
+        margin-left: 3.5em;
+        width: 28em;
+    }
+
+    .column1 img{
+        height: 12em;
+        width: 28em;
+       
+    }
+
+    .column2{
+        
+        margin-left: 3.5em;
+    }
+
+    .img_column21{
+        height: 28em ;
+        margin-bottom: 1em;
+    }
+
+    .img_column21 img{
+        height: 12em;
+        width: 25em;
+    }
+
+    .img_column22{
+        height: 15em;
+    }
+
+    .img_column21 img{
+        height: 12em;
+        width: 25em;
+    }
+
+    .column3{
+        height: 15em;
+        margin-bottom: 1em;
+        margin-left: 3.5em;
+        width: 28em;
+    }
+
+    .column3 img{
+        height: 12em;
+        width: 28em;
+       
+    }
+
+    .column4{
+        margin-left: 3.5em;
+        margin-bottom: 2em;
+    }
+
+    .img_column41{
+        height: 16em;
+    }
+
+    footer {
+        width: 550px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apropos{
+        width: 400px;
+        margin-bottom: 2em;
+    }
+
+    .apropos a{
+        margin-bottom: 0.5em;
+    }
+
+    .noshebergements{
+        margin-left: 2em;
+        margin-bottom: 2em;
+        width: 500px;
+    }
+
+    .noshebergements a{
+        margin-bottom: 0.5em;
+    }
+
+    .assistance{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+
+    .assistance a{
+        margin-bottom: 0.5em;
+    }
+
+    .filtres{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 400px;
+        
+    }
+
+    .choix_filtres{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bouton_filtre{
+        margin-bottom: 1em;
+    }
+}
+
