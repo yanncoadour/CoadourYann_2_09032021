@@ -17,17 +17,18 @@ body{
 }
 
 .logo{
-    width: 100px;
-    height: 50px;
+    width: 125px;
+    height: 62.5px;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 3em;
+    margin-bottom: 1.5em;
 }
 
 nav ul{
     list-style-type: none;
     display: flex;
     margin-top: 2em;
-    margin-right: 2em;
+    margin-right: 4em;
 }
 
 
@@ -43,6 +44,7 @@ header{
 .nav1, .nav2, .nav3{
     text-decoration: none;
     padding: 30px 20px 5px 20px;
+    font-size : 20px;
 }
 .nav1, .nav2{
     color: black;
@@ -64,12 +66,13 @@ header a:hover{
 
 .recherche{
     margin-right: 2em;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .fa-map-marker-alt{
     background-color: #F2F2F2;
     padding: 0.9em 0.9em 0.9em 0.9em;
+    height: 3em;
 
 }
 
@@ -92,7 +95,7 @@ header a:hover{
     width: 400px;
     overflow: hidden;
     justify-content: space-between ;
-    height: 2.5em;
+    height: 3em;
     
 }
 
@@ -114,10 +117,13 @@ header a:hover{
 
 .recherche p{
     margin-bottom: 1.5em;
+    font-size: 18px;
 }
 
 .recherche h1{
     margin-bottom: 0.5em;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* Flitres*/
@@ -150,12 +156,13 @@ header a:hover{
 .filtres{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: min-content;
     align-items: center;
     margin-top: 1.25em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
     margin-right: 2em;
-    margin-left: 2em;
+    margin-left: 3em;
     
 }
 
@@ -165,11 +172,11 @@ header a:hover{
 }
 
 .titre_filtre h3{
-    font-size: larger;
+    font-size: 23px;
 }
 
 .filtres p{
-    font-size: large;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -194,7 +201,7 @@ header a:hover{
     justify-content: flex-start;
     margin-bottom: 2em;
     margin-right: 2em;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .info i{
@@ -208,7 +215,9 @@ header a:hover{
     align-items: center;
     margin-right: 1em;
 }
-
+ .info p{
+    font-size: 15px;
+ }
 /* central populaire*/
 
 h3{
@@ -217,8 +226,9 @@ h3{
 }
 
 h2{
-    font-size: large;
+    font-size: 23px;
     font-weight: bold;
+    margin-top: 1.5em;
     
    
 }
@@ -226,12 +236,17 @@ p{
     font-size: small;
 }
 
+
+
 #central{
+    height: 700px;
+    width: 95vw ;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
-    margin-right: 2em;
-    margin-left: 2em;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
 .etoiles {
@@ -249,7 +264,7 @@ p{
     background-color: #F2F2F2;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    width: auto;
+    width: 29%;
     height: 47em;
     overflow: hidden;
     display: flex;
@@ -259,27 +274,27 @@ p{
 #populaire_haut{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 1.7em;
+    margin-left: 2em;
+    margin-right: 2em;
 
 }
 
 .hotel_populaire {
     display: flex;
     flex-direction: row;
-    border: 5px solid white;
+    border: 4px solid white;
     border-radius: 25px;
     background-color: white;
     overflow: hidden;
-    
     height: 11em;
     margin: 1em 1.5em 2em 1.5em;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
 }
 
 .hotel_populaire img {
-    width: 200px;
+    width: 45%;
     max-height: max-content;
     object-fit: cover;
 
@@ -312,52 +327,53 @@ p{
 /* central herbergement*/
 
 .hebergement{
+    width: 68%;
+    height: 47em;
     background-color: #F2F2F2;
-    border: 2px solid #F2F2F2;
     border-radius: 25px;
-    width: 1175px;
-    height: auto;
-    overflow: hidden ;
+    
+
 }
 
 .hebergement h2 {
-    margin-left: 2em;
-    margin-top: 2.3em;
-    font-size: large;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 37px;
+    font-size: 23px;
     font-weight: bold;
+    
 }
 
 .grid_herbergement{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
-.hotel_hebergement {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid white;
+.lien_hebergement {
     background-color: white;
-    border-radius: 25px;
-    width: 21.5em;
+    width: 30%;
     height: 16em;
-    margin: 1em 1em 1.2em 1.5em;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2em;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
-    overflow: hidden;
+    border: 4px solid white;
 }
 
 .hotel_hebergement img{
-    max-width: max-content;
+    width: 100%;
     height: 11em;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    object-fit: cover;
-    
+    object-fit: cover;  
 }
-
-
 
 .description_hebergement{
     display: flex;
@@ -403,15 +419,19 @@ p{
     
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    margin-bottom: 60px;
+    
+    flex-wrap: wrap;
+    ;
+    margin-left: 1em;
+   
    
     
 }
 
 .activites h2{
     margin-top: 4em;
-    margin-left: 2em;
+    margin-left: 1em;
+    font-size: 23px;
 }
 
 .activites h3{
@@ -423,8 +443,9 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: auto;
-    overflow: hidden;
+    height: 43em;
+    justify-content:space-around;
+    
     
 }
 
@@ -433,15 +454,19 @@ p{
     color: black;
 }
 
+.img_column1{
+    width: 20%;
+    margin-right: 2.5em;
+}
 .column1{
     
-    width: 25em;
+    width: 100%;
     overflow: hidden;
     height: 40em;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
-    margin-right: 4.3em;
-    margin-left: 2em;
+
+    
 }
 
 .column1 img{
@@ -458,17 +483,18 @@ p{
 .column2{
     display: flex;
     flex-direction: column;
+    width: 20%;
+    margin-right: 2.5em;
 }
 
 .column2 .img_column21{
    
     height: 25em;
-    width: 25em;
+    width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
     margin-bottom: 2em;
     overflow: hidden;
-    margin-right: 4.3em;
 }
 
 .column2 h3{
@@ -477,14 +503,14 @@ p{
 
 .column2 .img_column21 img{
     height: 21em;
-    width: 25em;
+    width: 32em;
     object-fit: cover;
 }
 
 .column2 .img_column22{
    
     height: 13em;
-    width: 25em;
+    width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
     overflow: hidden;
@@ -493,19 +519,23 @@ p{
 
 .column2 .img_column22 img{
     height: 9em;
-    width: 25em;
+    width: 32em;
     object-fit: cover;
 }
 
+.img_column3{
+    width: 20%;
+    margin-left: 0;
+    margin-right: 2.5em;
+}
 .column3{
     
-    width: 25em;
+    width: 100%;
     overflow: hidden;
     height: 40em;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
-    margin-bottom: 2.5em;
-    margin-right: 4.3em;
+    
 }
 
 .column3 img{
@@ -520,17 +550,19 @@ p{
 .column4{
     display: flex;
     flex-direction: column;
+    width: 20%;
+   
+
 }
 
 .column4 .img_column41{
    
-    height: 21em;
-    width: 25em;
+    height: 25em;
+    width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
     margin-bottom: 2em;
     overflow: hidden;
-    margin-right: 2em;
 }
 
 .column4 h3{
@@ -538,15 +570,15 @@ p{
 }
 
 .column4 .img_column41 img{
-    height: 17em;
-    width: 25em;
+    height: 21em;
+    width: 32em;
     object-fit: cover;
 }
 
 .column4 .img_column42{
    
-    height: 17em;
-    width: 25em;
+    height: 13em;
+    width: 100%;
     border-radius: 25px;
     box-shadow: 0 0 0.5em rgb(226, 226, 226);
     overflow: hidden;
@@ -554,8 +586,8 @@ p{
 
 
 .column4 .img_column42 img{
-    height: 13em;
-    width: 25em;
+    height: 9em;
+    width: 32em;
     object-fit: cover;
 }
 
@@ -564,17 +596,20 @@ p{
 footer{
     background-color: #F2F2F2;
     display: flex;
-    justify-content:left;
+    justify-content:flex-start;
     height: 12em;
     padding-top: 1em;
+    margin-top: 2em;
     overflow: hidden;
+    width: 100%;
+    
 }
 
 .apropos{
     display: flex;
     flex-direction: column;
-    margin-left: 2em;
-    margin-right: 25em;
+    margin-left: 3em;
+    margin-right: 25vw;
     
     
 }
@@ -589,7 +624,7 @@ footer{
 .noshebergements{
     display: flex;
     flex-direction: column; 
-    margin-right : 25em;
+    margin-right : 25vw;
 }
 
 .noshebergements a{
