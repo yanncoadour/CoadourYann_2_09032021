@@ -9,7 +9,7 @@
 
 
 body{
-    margin: 0px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -155,9 +155,9 @@ header a:hover{
 
 .filtres{
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-around;
+    
+    width: min-content;
     align-items: center;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
