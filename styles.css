@@ -155,9 +155,9 @@ header a:hover{
 
 .filtres{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    width: min-content;
+    width: 100%;
     align-items: center;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
