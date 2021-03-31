@@ -112,16 +112,14 @@ body{
     height: 2em;
 
 }
-.bouton_recherche {
+.bouton_recherche p{
+    border-radius: 0px 18px 18px 0;
+    padding: 5px 5px 5px 5px;
     background-color: #0065fc;
     color: white;
-    border: none;
-    padding:0px 15px 0px 15px;
-    border-radius: 0px 8px 8px 0px;
-    font-weight: bold;
-    font-family: "Raleway", "Sans serif";
-    font-size: 1em;
-    cursor: pointer; 
+    height: 2.5em;
+    cursor: pointer;
+    display: center;
 }
 
 .barre_recherche input{
@@ -741,24 +739,22 @@ footer{
         width: 85%;
     }
 
-    .clique_recherche{
+    .bouton_recherche{
         width: 30px;
     }
 
 
-    .clique_recherche i {
+    .bouton_recherche i {
         display: inline;
         color: white;
         background-color: #0065fc;
-        padding: 17px;
-        border-radius: 0px;
+        padding: 18px;
+        border-radius: 18px;
         position: relative;
         right: 52px;
-        border-radius: 18px;
-        
     }
     
-    .bouton_recherche {
+    .clique_recherche {
         display: none;
     }
     
