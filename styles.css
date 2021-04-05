@@ -1056,6 +1056,14 @@ footer{
         margin-left: 0.5em ;
     }
 
+    .inscrire a:hover {
+        border-top: none;   
+    }
+
+    .menu ul li a:hover {
+        border-top: none;
+    }
+
 
     /*HEADER - Filtres*/
 
