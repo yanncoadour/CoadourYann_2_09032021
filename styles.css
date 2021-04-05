@@ -123,7 +123,7 @@ h1{
     cursor: pointer;
 }
 
-.bouton_recherche a{
+.clique_recherche{
     text-decoration: none;
     color: white;
     padding-bottom: 1em;
@@ -1032,7 +1032,7 @@ footer{
 }
 
 /*Ipad*/
-@media (min-width:601px) and (max-width:1024px) {
+@media (min-width:601px) and (max-width:1250px) {
 
 
     /*HEADER - Logo-Menu*/
@@ -1259,3 +1259,17 @@ footer{
     .apropos{
         margin-right: 10vw;
     }
+}
+
+@media (min-width:1400px) and (max-width:1587px) {
+    .description_populaire {
+        right: 70px;
+    }
+}
+
+@media (min-width:1250px) and (max-width:1399px) {  
+    .description_populaire {
+        right: 50px;
+    }
+}
+
