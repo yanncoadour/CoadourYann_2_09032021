@@ -69,12 +69,7 @@ body{
     margin-right: 0%;
     font-weight: bold;
 }
-  
-.inscrire a:hover {
-    border-top: 2px solid #0065fc;
-    padding-top: 35px;
-    
-}
+
   
 .inscrire {
     margin-top: 1em;
@@ -113,7 +108,7 @@ h1{
 .fa-map-marker-alt{
     background-color: #F2F2F2;
     padding: 0.8em 0.9em 0.9em 0.9em;
-    height: 2em;
+    height: 2.5em;
 
 }
 .bouton_recherche{
@@ -126,7 +121,10 @@ h1{
 .clique_recherche{
     text-decoration: none;
     color: white;
+    font-weight: bold;
     padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .barre_recherche input{
