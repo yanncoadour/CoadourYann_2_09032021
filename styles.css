@@ -102,12 +102,12 @@ h1{
     width: 400px;
     overflow: hidden;
     justify-content: space-between ;
-    height: 2.5em;  
+    height: 2.75em;  
 }
 
 .fa-map-marker-alt{
     background-color: #F2F2F2;
-    padding: 0.8em 0.9em 0.9em 0.9em;
+    padding: 0.9em 0.9em 0.9em 0.9em;
     height: 2.5em;
 
 }
